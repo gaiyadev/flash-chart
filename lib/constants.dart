@@ -19,7 +19,9 @@ const kMessageContainerDecoration = BoxDecoration(
 );
 
 const kDecorationStyle = InputDecoration(
-  hintStyle: TextStyle(color: Colors.black),
+  hintStyle: TextStyle(
+    color: Colors.black,
+  ),
   hintText: 'Enter your password',
   contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
   border: OutlineInputBorder(
