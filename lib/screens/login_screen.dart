@@ -37,6 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 48.0,
             ),
             TextField(
+              style: TextStyle(color: Colors.black),
               keyboardType: TextInputType.emailAddress,
               onChanged: (value) {
                 email = value;
@@ -65,6 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 8.0,
             ),
             TextField(
+              style: TextStyle(color: Colors.black),
               obscureText: true,
               onChanged: (value) {
                 password = value;
